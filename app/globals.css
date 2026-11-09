@@ -1,0 +1,169 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-success: var(--success);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* kip system: background #0B0F19, cards #111827, gold #F3BA2F, green = received, red = sent */
+:root {
+  color-scheme: dark;
+  --background: #0b0f19;
+  --foreground: #f3f4f6;
+  --card: #111827;
+  --card-foreground: #f3f4f6;
+  --popover: #111827;
+  --popover-foreground: #f3f4f6;
+  --primary: #f3ba2f;
+  --primary-foreground: #0b0f19;
+  --secondary: #1f2937;
+  --secondary-foreground: #f3f4f6;
+  --muted: #1f2937;
+  --muted-foreground: #9ca3af;
+  --accent: #1f2937;
+  --accent-foreground: #f3f4f6;
+  --destructive: #f05252;
+  --success: #22c55e;
+  --border: #1f2937;
+  --input: #1f2937;
+  --ring: #f3ba2f;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@utility pt-safe {
+  padding-top: max(env(safe-area-inset-top), 0.75rem);
+}
+
+/* 10px gap above the Android navigation bar */
+@utility pb-safe {
+  padding-bottom: calc(env(safe-area-inset-bottom) + 10px);
+}
+
+@keyframes kip-ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(0.2);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes kip-transfer {
+  0% {
+    transform: translate(-70px, 0) scale(0.6);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(70px, 0) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes kip-breathe {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Chevron leans in, touches the stem, and settles back: the logo's tap */
+@keyframes kip-knock {
+  0%,
+  55%,
+  100% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(-5px);
+  }
+  78% {
+    transform: translateX(-5px);
+  }
+}
+
+.kip-knock {
+  animation: kip-knock 2.4s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+.kip-ripple {
+  animation: kip-ripple 1.2s cubic-bezier(0.2, 0.7, 0.3, 1) infinite;
+}
+
+.kip-transfer {
+  animation: kip-transfer 0.7s ease-in-out infinite;
+}
+
+.kip-breathe {
+  animation: kip-breathe 1.6s ease-in-out infinite;
+}
+
+@media print {
+  html,
+  body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  section {
+    break-inside: avoid-page;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kip-ripple,
+  .kip-transfer,
+  .kip-breathe,
+  .kip-knock {
+    animation: none;
+  }
+}

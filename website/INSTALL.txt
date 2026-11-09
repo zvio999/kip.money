@@ -1,0 +1,35 @@
+kip website + control panel
+===========================
+
+Requirements: any shared hosting with PHP 7.4 or newer (PHP 8.x recommended).
+No database is needed. Apache/LiteSpeed (cPanel, Plesk, DirectAdmin) work out of the box.
+
+1. UPLOAD
+   - Upload everything inside this "website" folder into public_html
+     (or into a subfolder such as public_html/kip). Keep the folder structure.
+   - Make sure the hidden ".htaccess" files are uploaded too
+     (in cPanel File Manager: Settings > Show Hidden Files).
+
+2. PERMISSIONS
+   - Folders "data" and "assets/uploads" must be writable by PHP.
+     Set them to 755 (if saving fails, try 775). Files stay at 644.
+
+3. CREATE YOUR ADMIN ACCOUNT
+   - Open  https://your-domain.com/admin/
+   - The first visit asks you to create a username and password (min. 10 characters).
+   - After that, the same page is the sign-in screen.
+
+4. EDIT THE WEBSITE
+   - In the control panel you can change texts, company info, App Store / Google Play
+     links, features, FAQ, contact details, upload new wallet screenshots and hide sections.
+   - Press "Publish changes" — the website updates immediately.
+   - Store buttons show "Coming soon" until you paste a link.
+
+Forgot the admin password?
+   Delete the file data/admin.php with the hosting file manager and open /admin/ again
+   to create a new account. Your website content is not affected.
+
+Backup: download data/content.json and the assets/uploads folder.
+
+Tip: enable free SSL (AutoSSL / Let's Encrypt) in your hosting panel so the
+control panel login runs over https.

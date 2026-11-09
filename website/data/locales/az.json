@@ -1,0 +1,122 @@
+{
+  "ui": {
+    "nav_how": "Necə işləyir",
+    "nav_features": "İmkanlar",
+    "nav_screens": "Ekranlar",
+    "nav_about": "Haqqımızda",
+    "nav_faq": "Suallar",
+    "download": "Yüklə",
+    "skip": "Məzmuna keç",
+    "open_menu": "Menyunu aç",
+    "close_menu": "Menyunu bağla",
+    "coming_soon": "Tezliklə burada",
+    "download_on": "Yüklə",
+    "get_it_on": "Yüklə",
+    "app_store": "App Store",
+    "google_play": "Google Play",
+    "screens_aria": "Tətbiq ekranları, yan tərəfə sürüşdür",
+    "screen_alt": "kip ekranı",
+    "telegram": "Telegram",
+    "twitter": "X (Twitter)",
+    "rights": "Bütün hüquqlar qorunur.",
+    "language": "Dil",
+    "home": "kip ana səhifə"
+  },
+  "site": {
+    "title": "kip — bir toxunuşla ödədiyin soyuq pulqabı",
+    "description": "kip telefonundakı öz-özünə saxlanan soyuq pulqabıdır. Telefonları toxunduraraq oflayn ödə. Açarlar heç vaxt cihazını tərk etmir."
+  },
+  "hero": {
+    "eyebrow": "Soyuq pulqabı · BNB Smart Chain",
+    "title": "Telefonlar toxundu. Pul getdi. Açarlar evdə qaldı.",
+    "subtitle": "kip telefonunda yaşayan soyuq pulqabıdır. Ödəmək üçün iki telefonu bir-birinə tut — hətta oflayn. Şəxsi açarlar aparat anbarında möhürlənib və heç vaxt cihazı tərk etmir."
+  },
+  "how": {
+    "title": "Ödəniş bir toxunuşdur",
+    "subtitle": "Nə QR kod, nə də ünvan yapışdırmaq. Alan soruşur, göndərən toxunur.",
+    "steps": [
+      {
+        "title": "Alan Get-i açır",
+        "text": "Token seç, klaviaturada məbləği yaz və Ready bas. Telefon toxunuşu gözləyir."
+      },
+      {
+        "title": "Göndərən Pay-i açır",
+        "text": "Telefonları arxa-arxaya tut. kip sorğunu oxuyur və dəqiq göstərir: nə qədər və kimə ödəyirsən."
+      },
+      {
+        "title": "İmza cihazın özündə",
+        "text": "Ödəniş telefonunun təhlükəsiz anbarında imzalanır. Göndəriləndə hər iki telefon titrəyir."
+      }
+    ]
+  },
+  "features": {
+    "title": "Seyf kimi qurulub, nağd kimi işlədilir",
+    "subtitle": "Vacib olan hər şey bizim serverlərdə yox, sənin telefonunda baş verir.",
+    "items": [
+      {
+        "title": "Oflayn işləyir",
+        "text": "Telefonlar arası toxunuş imzalanmış ödənişi aparır, ona görə siqnal olmayan yerdə ödəyib sonra şəbəkəyə göndərə bilərsən."
+      },
+      {
+        "title": "Aparat anbarı",
+        "text": "Açarlar telefonun təhlükəsiz aparatında yaranır, şifrələnir və yalnız seyfin PIN-i və ya biometriya ilə açılır."
+      },
+      {
+        "title": "Hesab yoxdur, giriş yoxdur",
+        "text": "Qeydiyyat lazım deyil. 12 sözlük bərpa ifadəsi geri qayıtmağın yeganə yoludur və o, yalnız səndədir."
+      },
+      {
+        "title": "Steyblkoinlər hazırdır",
+        "text": "BNB, USDT, USDC və FDUSD BNB Smart Chain-də dərhal var, üstəlik əlavə etdiyin istənilən BEP-20 token."
+      }
+    ]
+  },
+  "screens": {
+    "title": "Tətbiqin içində",
+    "subtitle": "Tünd, sakit və tez oxunur — hər ekran bir əllə istifadə üçündür.",
+    "items": [
+      { "caption": "Pulqabı yarat və ya gətir" },
+      { "caption": "Seyf PIN-inlə möhürlənib" },
+      { "caption": "Balans, toxunuş və seyf ünvanı" },
+      { "caption": "Alınacaq məbləği yaz" },
+      { "caption": "Ödəmək üçün telefonları tut" }
+    ]
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "heading": "Pul alətlərini onları saxlayan insana hörmətlə qururuq.",
+    "text": "kip Labs mühəndis və dizaynerlərdən ibarət kiçik komandadır. İnanırıq ki, kripto nağd pul vermək qədər sadə olmalıdır — açarlara nəzarəti itirmədən.\n\nBiz heç vaxt vəsaitlərini saxlamırıq, bərpa ifadəsini görmürük və şəxsiyyətini istəmirik. Pulqabı elə qurulub ki, hətta biz də pulunu tərpədə bilmərik.\n\nMissiyamız öz-özünə saxlamanı gündəlik ödənişlər üçün asan standart etməkdir, BNB Smart Chain və steyblkoinlərdən başlayaraq."
+  },
+  "faq": {
+    "title": "Suallar, cavablarla",
+    "items": [
+      {
+        "question": "kip həqiqətən soyuq pulqabıdır?",
+        "answer": "Bəli. Şəxsi açarlar telefonunun aparat anbarında yaranır, orada saxlanır və heç vaxt onu tərk etmir. Ödənişlər cihazda imzalanır, paylaşılan yalnız imzalanmış tranzaksiyadır."
+      },
+      {
+        "question": "Telefonumu itirsəm nə olar?",
+        "answer": "kip-i yeni telefona quraşdır və Import recovery phrase seç. 12 sözü daxil et — pulqabı bərpa olunur. İfadə olmadan vəsaitlərinə heç kim, o cümlədən biz, çata bilməz."
+      },
+      {
+        "question": "Hər iki telefona internet lazımdır?",
+        "answer": "Xeyr. Toxunuş imzalanmış ödənişi birbaşa telefonlar arasında ötürür. Şəbəkəyə o, telefonlardan biri yenidən onlayn olanda göndərilir."
+      },
+      {
+        "question": "Hansı tokenlər dəstəklənir?",
+        "answer": "BNB, USDT, USDC və FDUSD BNB Smart Chain-də quraşdırılıb. İstənilən digər BEP-20 tokeni müqavilə ünvanı ilə əlavə edə bilərsən."
+      },
+      {
+        "question": "kip komissiya götürür?",
+        "answer": "kip öz komissiyasını əlavə etmir. Yalnız təsdiqdən əvvəl göstərilən standart BNB Smart Chain şəbəkə haqqını ödəyirsən."
+      }
+    ]
+  },
+  "download": {
+    "title": "Sənin açarların. Sənin telefonun. Bir toxunuş.",
+    "text": "kip-i iPhone və Android üçün yüklə və ilk toxunuş ödənişini bir dəqiqədən az vaxtda et."
+  },
+  "contact": {
+    "note": "kip öz-özünə saxlanan pulqabıdır. Biz heç vaxt vəsaitlərini, açarlarını və ya bərpa ifadəsini saxlamırıq."
+  }
+}

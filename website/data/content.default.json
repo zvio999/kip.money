@@ -1,0 +1,117 @@
+{
+  "site": {
+    "company_name": "kip Labs",
+    "title": "kip — the cold wallet you pay with a tap",
+    "description": "kip is a self-custody cold wallet for your phone. Pay offline by tapping phones together. Your keys never leave your device."
+  },
+  "sections": {
+    "how": true,
+    "features": true,
+    "screens": true,
+    "about": true,
+    "faq": true
+  },
+  "hero": {
+    "eyebrow": "Cold wallet · BNB Smart Chain",
+    "title": "Tap phones. Money moves. Keys stay home.",
+    "subtitle": "kip is a cold wallet that lives on your phone. Hold two phones together to pay — even offline. Your private keys are sealed in the hardware keystore and never leave the device.",
+    "image_left": "assets/img/screen-pay.png",
+    "image_right": "assets/img/screen-get.png"
+  },
+  "stores": {
+    "apple_url": "",
+    "google_url": ""
+  },
+  "how": {
+    "title": "A payment is one tap",
+    "subtitle": "No QR codes to scan, no addresses to paste. The receiver asks, the sender taps.",
+    "steps": [
+      {
+        "title": "Receiver opens Get",
+        "text": "Pick a token, type the amount on the keypad and press Ready. The phone waits for a tap."
+      },
+      {
+        "title": "Sender opens Pay",
+        "text": "Hold the phones back to back. kip reads the request and shows exactly what you are paying and to whom."
+      },
+      {
+        "title": "Signed on the device",
+        "text": "The payment is signed inside your phone's secure keystore. Both phones vibrate when it is sent."
+      }
+    ]
+  },
+  "features": {
+    "title": "Built like a vault, used like cash",
+    "subtitle": "Everything that matters happens on your phone, not on our servers.",
+    "items": [
+      {
+        "title": "Works offline",
+        "text": "Phone-to-phone taps carry the signed payment, so you can pay where there is no signal and broadcast later."
+      },
+      {
+        "title": "Hardware keystore",
+        "text": "Keys are generated and encrypted in the phone's secure hardware and unlocked only with your vault PIN or biometrics."
+      },
+      {
+        "title": "No account, no sign-in",
+        "text": "There is nothing to register. Your 12-word recovery phrase is the only way back in, and only you hold it."
+      },
+      {
+        "title": "Stablecoins ready",
+        "text": "BNB, USDT, USDC and FDUSD on BNB Smart Chain out of the box, plus any BEP-20 token you add."
+      }
+    ]
+  },
+  "screens": {
+    "title": "Inside the app",
+    "subtitle": "Dark, calm and quick to read — every screen is built for one-handed use.",
+    "items": [
+      { "image": "assets/img/screen-welcome.png", "caption": "Create or import a wallet" },
+      { "image": "assets/img/screen-lock.png", "caption": "Vault sealed with your PIN" },
+      { "image": "assets/img/screen-home.png", "caption": "Balance, tap and vault address" },
+      { "image": "assets/img/screen-get.png", "caption": "Type the amount to get" },
+      { "image": "assets/img/screen-pay.png", "caption": "Hold phones together to pay" }
+    ]
+  },
+  "about": {
+    "title": "About us",
+    "heading": "We build money tools that respect the person holding them.",
+    "text": "kip Labs is a small team of engineers and designers who believe crypto should feel as simple as handing someone cash — without giving up control of your keys.\n\nWe never hold your funds, see your recovery phrase or ask for your identity. The wallet is designed so that even we cannot move your money.\n\nOur mission is to make self-custody the easy default for everyday payments, starting with BNB Smart Chain and stablecoins."
+  },
+  "faq": {
+    "title": "Questions, answered",
+    "items": [
+      {
+        "question": "Is kip really a cold wallet?",
+        "answer": "Yes. Your private keys are created and stored in your phone's hardware keystore and never leave it. Payments are signed on the device, and only the signed transaction is shared."
+      },
+      {
+        "question": "What happens if I lose my phone?",
+        "answer": "Install kip on a new phone and choose Import recovery phrase. Enter your 12 words and your wallet is restored. Without the phrase nobody can access your funds — including us."
+      },
+      {
+        "question": "Do both phones need internet?",
+        "answer": "No. The tap transfers the signed payment directly between phones. It is broadcast to the network as soon as either phone is back online."
+      },
+      {
+        "question": "Which tokens are supported?",
+        "answer": "BNB, USDT, USDC and FDUSD on BNB Smart Chain are built in. You can add any other BEP-20 token by its contract address."
+      },
+      {
+        "question": "Does kip charge fees?",
+        "answer": "kip does not add its own fees. You only pay the standard BNB Smart Chain network fee, shown before you confirm."
+      }
+    ]
+  },
+  "download": {
+    "title": "Your keys. Your phone. One tap.",
+    "text": "Get kip for iPhone and Android and make your first tap payment in under a minute."
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "address": "",
+    "telegram": "",
+    "x": "",
+    "note": "kip is a self-custody wallet. We never hold your funds, keys or recovery phrase."
+  }
+}

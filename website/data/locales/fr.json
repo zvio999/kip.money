@@ -1,0 +1,122 @@
+{
+  "ui": {
+    "nav_how": "Comment ça marche",
+    "nav_features": "Fonctions",
+    "nav_screens": "Écrans",
+    "nav_about": "À propos",
+    "nav_faq": "Questions",
+    "download": "Télécharger",
+    "skip": "Aller au contenu",
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu",
+    "coming_soon": "Bientôt sur",
+    "download_on": "Télécharger dans",
+    "get_it_on": "Disponible sur",
+    "app_store": "l'App Store",
+    "google_play": "Google Play",
+    "screens_aria": "Écrans de l'app, faites défiler sur le côté",
+    "screen_alt": "écran kip",
+    "telegram": "Telegram",
+    "twitter": "X (Twitter)",
+    "rights": "Tous droits réservés.",
+    "language": "Langue",
+    "home": "accueil kip"
+  },
+  "site": {
+    "title": "kip — le cold wallet avec lequel on paie d'une tape",
+    "description": "kip est un cold wallet en auto-garde sur votre téléphone. Payez hors ligne en tapant les téléphones. Vos clés ne quittent jamais l'appareil."
+  },
+  "hero": {
+    "eyebrow": "Cold wallet · BNB Smart Chain",
+    "title": "Les téléphones se touchent. L'argent part. Les clés restent à la maison.",
+    "subtitle": "kip est un cold wallet qui vit sur votre téléphone. Approchez deux téléphones pour payer — même hors ligne. Vos clés privées sont scellées dans le coffre matériel et ne quittent jamais l'appareil."
+  },
+  "how": {
+    "title": "Un paiement, c'est une tape",
+    "subtitle": "Pas de QR à scanner, pas d'adresse à coller. Celui qui reçoit demande, celui qui envoie tape.",
+    "steps": [
+      {
+        "title": "Le destinataire ouvre Get",
+        "text": "Choisissez un jeton, saisissez le montant au clavier et appuyez sur Ready. Le téléphone attend une tape."
+      },
+      {
+        "title": "L'expéditeur ouvre Pay",
+        "text": "Tenez les téléphones dos à dos. kip lit la demande et montre exactement ce que vous payez et à qui."
+      },
+      {
+        "title": "Signé sur l'appareil",
+        "text": "Le paiement est signé dans le coffre sécurisé du téléphone. Les deux vibrent lorsqu'il est envoyé."
+      }
+    ]
+  },
+  "features": {
+    "title": "Construit comme un coffre, utilisé comme du cash",
+    "subtitle": "Tout ce qui compte se passe sur votre téléphone, pas sur nos serveurs.",
+    "items": [
+      {
+        "title": "Fonctionne hors ligne",
+        "text": "La tape de téléphone à téléphone transporte le paiement signé : vous pouvez payer sans réseau et diffuser plus tard."
+      },
+      {
+        "title": "Coffre matériel",
+        "text": "Les clés sont créées et chiffrées dans le matériel sécurisé du téléphone, et déverrouillées seulement avec le PIN du coffre ou la biométrie."
+      },
+      {
+        "title": "Pas de compte, pas de connexion",
+        "text": "Rien à inscrire. Votre phrase de 12 mots est le seul chemin de retour, et vous seul la détenez."
+      },
+      {
+        "title": "Stablecoins prêts",
+        "text": "BNB, USDT, USDC et FDUSD sur BNB Smart Chain sont déjà là, plus tout jeton BEP-20 que vous ajoutez."
+      }
+    ]
+  },
+  "screens": {
+    "title": "Dans l'application",
+    "subtitle": "Sombre, calme et rapide à lire — chaque écran est fait pour une seule main.",
+    "items": [
+      { "caption": "Créer ou importer un portefeuille" },
+      { "caption": "Coffre scellé avec votre PIN" },
+      { "caption": "Solde, tape et adresse du coffre" },
+      { "caption": "Saisir le montant à recevoir" },
+      { "caption": "Approcher les téléphones pour payer" }
+    ]
+  },
+  "about": {
+    "title": "À propos",
+    "heading": "Nous construisons des outils d'argent qui respectent celui qui les tient.",
+    "text": "kip Labs est une petite équipe d'ingénieurs et de designers. Nous pensons que la crypto devrait sembler aussi simple que de tendre du cash — sans céder le contrôle de vos clés.\n\nNous ne détenons jamais vos fonds, ne voyons pas votre phrase de récupération et ne demandons pas votre identité. Le portefeuille est conçu pour que même nous ne puissions pas déplacer votre argent.\n\nNotre mission est de faire de l'auto-garde le choix simple par défaut pour les paiements du quotidien, en commençant par BNB Smart Chain et les stablecoins."
+  },
+  "faq": {
+    "title": "Questions, avec réponses",
+    "items": [
+      {
+        "question": "kip est-il vraiment un cold wallet ?",
+        "answer": "Oui. Vos clés privées sont créées et stockées dans le coffre matériel du téléphone et ne le quittent jamais. Les paiements sont signés sur l'appareil ; seule la transaction signée est partagée."
+      },
+      {
+        "question": "Que se passe-t-il si je perds mon téléphone ?",
+        "answer": "Installez kip sur un nouveau téléphone et choisissez Import recovery phrase. Saisissez vos 12 mots et le portefeuille est restauré. Sans la phrase, personne ne peut accéder à vos fonds — nous non plus."
+      },
+      {
+        "question": "Les deux téléphones ont-ils besoin d'internet ?",
+        "answer": "Non. La tape transfère le paiement signé directement entre les téléphones. Il est diffusé sur le réseau dès que l'un des deux est de nouveau en ligne."
+      },
+      {
+        "question": "Quels jetons sont pris en charge ?",
+        "answer": "BNB, USDT, USDC et FDUSD sur BNB Smart Chain sont intégrés. Tout autre jeton BEP-20 s'ajoute via son adresse de contrat."
+      },
+      {
+        "question": "kip prend-il des frais ?",
+        "answer": "kip n'ajoute pas ses propres frais. Vous ne payez que les frais de réseau standard de BNB Smart Chain, affichés avant confirmation."
+      }
+    ]
+  },
+  "download": {
+    "title": "Vos clés. Votre téléphone. Une tape.",
+    "text": "Téléchargez kip pour iPhone et Android et faites votre premier paiement d'une tape en moins d'une minute."
+  },
+  "contact": {
+    "note": "kip est un portefeuille en auto-garde. Nous ne détenons jamais vos fonds, vos clés ni votre phrase de récupération."
+  }
+}

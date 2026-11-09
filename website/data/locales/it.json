@@ -1,0 +1,122 @@
+{
+  "ui": {
+    "nav_how": "Come funziona",
+    "nav_features": "Funzioni",
+    "nav_screens": "Schermate",
+    "nav_about": "Chi siamo",
+    "nav_faq": "Domande",
+    "download": "Scarica",
+    "skip": "Vai al contenuto",
+    "open_menu": "Apri il menu",
+    "close_menu": "Chiudi il menu",
+    "coming_soon": "Presto su",
+    "download_on": "Scarica su",
+    "get_it_on": "Disponibile su",
+    "app_store": "App Store",
+    "google_play": "Google Play",
+    "screens_aria": "Schermate dell'app, scorri di lato",
+    "screen_alt": "schermata kip",
+    "telegram": "Telegram",
+    "twitter": "X (Twitter)",
+    "rights": "Tutti i diritti riservati.",
+    "language": "Lingua",
+    "home": "home kip"
+  },
+  "site": {
+    "title": "kip — il cold wallet con cui paghi con un tocco",
+    "description": "kip è un cold wallet in self-custody sul tuo telefono. Paga offline accostando i telefoni. Le chiavi non lasciano mai il dispositivo."
+  },
+  "hero": {
+    "eyebrow": "Cold wallet · BNB Smart Chain",
+    "title": "I telefoni si toccano. I soldi si spostano. Le chiavi restano a casa.",
+    "subtitle": "kip è un cold wallet che vive sul tuo telefono. Accosta due telefoni per pagare — anche offline. Le chiavi private sono sigillate nel keystore hardware e non lasciano mai il dispositivo."
+  },
+  "how": {
+    "title": "Un pagamento è un tocco",
+    "subtitle": "Niente QR da inquadrare, niente indirizzi da incollare. Chi riceve chiede, chi invia tocca.",
+    "steps": [
+      {
+        "title": "Il destinatario apre Get",
+        "text": "Scegli un token, digita l'importo sulla tastiera e premi Ready. Il telefono aspetta un tocco."
+      },
+      {
+        "title": "Il mittente apre Pay",
+        "text": "Tieni i telefoni schiena contro schiena. kip legge la richiesta e mostra esattamente cosa stai pagando e a chi."
+      },
+      {
+        "title": "Firmato sul dispositivo",
+        "text": "Il pagamento viene firmato nel keystore sicuro del telefono. Entrambi vibrano quando è inviato."
+      }
+    ]
+  },
+  "features": {
+    "title": "Costruito come una cassaforte, usato come contanti",
+    "subtitle": "Tutto ciò che conta succede sul tuo telefono, non sui nostri server.",
+    "items": [
+      {
+        "title": "Funziona offline",
+        "text": "Il tocco da telefono a telefono porta il pagamento firmato, così puoi pagare senza segnale e trasmettere dopo."
+      },
+      {
+        "title": "Keystore hardware",
+        "text": "Le chiavi si creano e si cifrano nell'hardware sicuro del telefono e si sbloccano solo con il PIN della cassaforte o la biometria."
+      },
+      {
+        "title": "Nessun account, nessun accesso",
+        "text": "Non c'è nulla da registrare. La frase di recupero da 12 parole è l'unico modo per rientrare, e ce l'hai solo tu."
+      },
+      {
+        "title": "Stablecoin pronte",
+        "text": "BNB, USDT, USDC e FDUSD su BNB Smart Chain sono già inclusi, più qualsiasi token BEP-20 che aggiungi."
+      }
+    ]
+  },
+  "screens": {
+    "title": "Dentro l'app",
+    "subtitle": "Scura, calma e veloce da leggere — ogni schermata è fatta per una mano sola.",
+    "items": [
+      { "caption": "Crea o importa un wallet" },
+      { "caption": "Cassaforte sigillata con il tuo PIN" },
+      { "caption": "Saldo, tocco e indirizzo della cassaforte" },
+      { "caption": "Digita l'importo da ricevere" },
+      { "caption": "Accosta i telefoni per pagare" }
+    ]
+  },
+  "about": {
+    "title": "Chi siamo",
+    "heading": "Costruiamo strumenti di denaro che rispettano chi li tiene in mano.",
+    "text": "kip Labs è un piccolo team di ingegneri e designer. Crediamo che il cripto debba sembrare semplice come passare dei contanti — senza rinunciare al controllo delle chiavi.\n\nNon custodiamo mai i tuoi fondi, non vediamo la frase di recupero e non chiediamo la tua identità. Il wallet è progettato perché nemmeno noi possiamo spostare i tuoi soldi.\n\nLa nostra missione è rendere la self-custody la scelta facile di default per i pagamenti quotidiani, partendo da BNB Smart Chain e dalle stablecoin."
+  },
+  "faq": {
+    "title": "Domande, con risposta",
+    "items": [
+      {
+        "question": "kip è davvero un cold wallet?",
+        "answer": "Sì. Le chiavi private si creano e si conservano nel keystore hardware del telefono e non lo lasciano mai. I pagamenti si firmano sul dispositivo; viene condivisa solo la transazione firmata."
+      },
+      {
+        "question": "Cosa succede se perdo il telefono?",
+        "answer": "Installa kip su un telefono nuovo e scegli Import recovery phrase. Inserisci le 12 parole e il wallet è ripristinato. Senza la frase nessuno può accedere ai tuoi fondi — nemmeno noi."
+      },
+      {
+        "question": "Entrambi i telefoni servono internet?",
+        "answer": "No. Il tocco trasferisce il pagamento firmato direttamente tra i telefoni. Viene trasmesso in rete non appena uno dei due torna online."
+      },
+      {
+        "question": "Quali token sono supportati?",
+        "answer": "BNB, USDT, USDC e FDUSD su BNB Smart Chain sono integrati. Qualsiasi altro token BEP-20 si aggiunge con l'indirizzo del contratto."
+      },
+      {
+        "question": "kip applica commissioni?",
+        "answer": "kip non aggiunge commissioni proprie. Paghi solo la commissione di rete standard di BNB Smart Chain, visibile prima di confermare."
+      }
+    ]
+  },
+  "download": {
+    "title": "Le tue chiavi. Il tuo telefono. Un tocco.",
+    "text": "Scarica kip per iPhone e Android e fai il primo pagamento con un tocco in meno di un minuto."
+  },
+  "contact": {
+    "note": "kip è un wallet in self-custody. Non custodiamo mai i tuoi fondi, le chiavi o la frase di recupero."
+  }
+}

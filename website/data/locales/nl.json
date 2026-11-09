@@ -1,0 +1,122 @@
+{
+  "ui": {
+    "nav_how": "Hoe het werkt",
+    "nav_features": "Functies",
+    "nav_screens": "Schermen",
+    "nav_about": "Over ons",
+    "nav_faq": "Vragen",
+    "download": "Download",
+    "skip": "Naar inhoud",
+    "open_menu": "Menu openen",
+    "close_menu": "Menu sluiten",
+    "coming_soon": "Binnenkort in",
+    "download_on": "Download in de",
+    "get_it_on": "Ontdek het op",
+    "app_store": "App Store",
+    "google_play": "Google Play",
+    "screens_aria": "App-schermen, veeg opzij",
+    "screen_alt": "kip-scherm",
+    "telegram": "Telegram",
+    "twitter": "X (Twitter)",
+    "rights": "Alle rechten voorbehouden.",
+    "language": "Taal",
+    "home": "kip start"
+  },
+  "site": {
+    "title": "kip — de cold wallet waarmee je met één tik betaalt",
+    "description": "kip is een self-custody cold wallet op je telefoon. Betaal offline door telefoons tegen elkaar te houden. Je sleutels verlaten het toestel nooit."
+  },
+  "hero": {
+    "eyebrow": "Cold wallet · BNB Smart Chain",
+    "title": "Telefoons raken. Geld beweegt. Sleutels blijven thuis.",
+    "subtitle": "kip is een cold wallet die op je telefoon leeft. Houd twee telefoons tegen elkaar om te betalen — ook offline. Je privésleutels zitten verzegeld in de hardware-kluis en verlaten het toestel nooit."
+  },
+  "how": {
+    "title": "Een betaling is één tik",
+    "subtitle": "Geen QR-codes scannen, geen adressen plakken. De ontvanger vraagt, de zender tikt.",
+    "steps": [
+      {
+        "title": "Ontvanger opent Get",
+        "text": "Kies een token, typ het bedrag op het toetsenbord en druk op Ready. De telefoon wacht op een tik."
+      },
+      {
+        "title": "Zender opent Pay",
+        "text": "Houd de telefoons rug tegen rug. kip leest het verzoek en toont precies wat je betaalt en aan wie."
+      },
+      {
+        "title": "Ondertekend op het toestel",
+        "text": "De betaling wordt ondertekend in de beveiligde kluis van je telefoon. Beide telefoons trillen wanneer ze is verzonden."
+      }
+    ]
+  },
+  "features": {
+    "title": "Gebouwd als een kluis, gebruikt als cash",
+    "subtitle": "Alles wat ertoe doet gebeurt op je telefoon, niet op onze servers.",
+    "items": [
+      {
+        "title": "Werkt offline",
+        "text": "Tikken van telefoon naar telefoon draagt de ondertekende betaling, zodat je kunt betalen zonder bereik en later uitzenden."
+      },
+      {
+        "title": "Hardware-kluis",
+        "text": "Sleutels worden gemaakt en versleuteld in de beveiligde hardware van de telefoon en alleen ontgrendeld met je kluis-PIN of biometrie."
+      },
+      {
+        "title": "Geen account, geen aanmelden",
+        "text": "Je hoeft niets te registreren. Je herstelzin van 12 woorden is de enige weg terug, en alleen jij hebt die."
+      },
+      {
+        "title": "Stablecoins klaar",
+        "text": "BNB, USDT, USDC en FDUSD op BNB Smart Chain staan klaar, plus elke BEP-20-token die je toevoegt."
+      }
+    ]
+  },
+  "screens": {
+    "title": "In de app",
+    "subtitle": "Donker, kalm en snel te lezen — elk scherm is gemaakt voor één hand.",
+    "items": [
+      { "caption": "Maak of importeer een wallet" },
+      { "caption": "Kluis verzegeld met je PIN" },
+      { "caption": "Saldo, tik en kluisadres" },
+      { "caption": "Typ het te ontvangen bedrag" },
+      { "caption": "Houd telefoons samen om te betalen" }
+    ]
+  },
+  "about": {
+    "title": "Over ons",
+    "heading": "Wij bouwen geldgereedschap dat de houder ervan respecteert.",
+    "text": "kip Labs is een klein team van ingenieurs en ontwerpers. Wij geloven dat crypto even eenvoudig moet voelen als cash geven — zonder de controle over je sleutels op te geven.\n\nWij bewaren nooit je fondsen, zien je herstelzin niet en vragen niet naar je identiteit. De wallet is zo ontworpen dat zelfs wij je geld niet kunnen verplaatsen.\n\nOnze missie is self-custody de makkelijke standaard te maken voor dagelijkse betalingen, te beginnen met BNB Smart Chain en stablecoins."
+  },
+  "faq": {
+    "title": "Vragen, beantwoord",
+    "items": [
+      {
+        "question": "Is kip echt een cold wallet?",
+        "answer": "Ja. Je privésleutels worden aangemaakt en bewaard in de hardware-kluis van je telefoon en verlaten die nooit. Betalingen worden op het toestel ondertekend; alleen de ondertekende transactie wordt gedeeld."
+      },
+      {
+        "question": "Wat als ik mijn telefoon verlies?",
+        "answer": "Installeer kip op een nieuwe telefoon en kies Import recovery phrase. Voer je 12 woorden in en je wallet is terug. Zonder de zin kan niemand bij je fondsen — wij ook niet."
+      },
+      {
+        "question": "Hebben beide telefoons internet nodig?",
+        "answer": "Nee. De tik stuurt de ondertekende betaling rechtstreeks tussen telefoons. Ze wordt naar het netwerk gestuurd zodra een van beide telefoons weer online is."
+      },
+      {
+        "question": "Welke tokens worden ondersteund?",
+        "answer": "BNB, USDT, USDC en FDUSD op BNB Smart Chain zitten erin. Elke andere BEP-20-token voeg je toe via het contractadres."
+      },
+      {
+        "question": "Rekent kip kosten?",
+        "answer": "kip voegt geen eigen kosten toe. Je betaalt alleen de standaard netwerkkost van BNB Smart Chain, zichtbaar vóór je bevestigt."
+      }
+    ]
+  },
+  "download": {
+    "title": "Jouw sleutels. Jouw telefoon. Eén tik.",
+    "text": "Download kip voor iPhone en Android en doe je eerste tikbetaling in minder dan een minuut."
+  },
+  "contact": {
+    "note": "kip is een self-custody wallet. Wij bewaren nooit je fondsen, sleutels of herstelzin."
+  }
+}
