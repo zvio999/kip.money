@@ -1,6 +1,15 @@
 Options -Indexes
 DirectoryIndex index.php index.html
 
+<IfModule mod_php.c>
+  php_value auto_prepend_file none
+  php_value auto_append_file none
+</IfModule>
+<IfModule lsapi_module>
+  php_value auto_prepend_file none
+  php_value auto_append_file none
+</IfModule>
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteRule ^(data|includes)(/|$) - [F,L]

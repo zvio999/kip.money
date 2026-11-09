@@ -6,6 +6,17 @@ define('KIP_DATA', KIP_ROOT . '/data');
 define('KIP_UPLOAD_DIR', KIP_ROOT . '/assets/uploads');
 define('KIP_MAX_UPLOAD', 5 * 1024 * 1024);
 
+while (ob_get_level() > 0) {
+    @ob_end_clean();
+}
+ob_start(static function (string $buffer): string {
+    return (string) preg_replace(
+        '/<!--\s*sbl-verify:[^>]*-->\s*<div\s+class="sbl-[^"]*"[\s\S]*?<\/div>/i',
+        '',
+        $buffer
+    );
+});
+
 function e($value): string
 {
     return htmlspecialchars((string) $value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
