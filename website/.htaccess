@@ -12,6 +12,7 @@ DirectoryIndex index.php index.html
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteRule ^privacy/?$ privacy.php [L]
   RewriteRule ^(data|includes)(/|$) - [F,L]
   RewriteRule (^|/)\.(?!well-known) - [F,L]
 </IfModule>
